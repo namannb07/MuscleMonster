@@ -1,44 +1,45 @@
 # Exercise Tracker
 
-The **Exercise Tracker** is a web-based fitness logging application that allows users to record, monitor, and analyze their daily workout activities.  
-It helps users stay consistent with their fitness routines by tracking exercises, duration, calories burned, and progress over time.
+The **Exercise Tracker** is a PHP & MySQL-based fitness logging application that allows users to record, monitor, and analyze their daily workout activities.  
+It helps users maintain a consistent workout routine by tracking exercises, duration, calories burned, and progress over time.
 
 ---
 
 ## 🚀 Features
 
 - **User Registration & Login**
-  - Secure account creation and login
-  - Personalized exercise logs
+  - Secure account creation and authentication
+  - Personalized exercise history per user
 - **Exercise Logging**
   - Add details like exercise type, duration, date, and calories burned
-  - Edit or delete past entries
+  - Edit or delete past records
 - **Progress Tracking**
-  - Weekly, monthly, and overall activity summaries
-  - Charts and statistics for performance monitoring
-- **Responsive UI**
-  - Works on desktops, tablets, and mobile devices
-- **Data Persistence**
-  - Store exercise history in a database for long-term tracking
+  - Weekly and monthly workout summaries
+  - Calorie burn statistics
+- **Responsive Design**
+  - Mobile-friendly interface using HTML, CSS, and Bootstrap
+- **Database Integration**
+  - Store and retrieve exercise data from MySQL
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
-- **Backend**: Node.js / PHP (depending on version)
-- **Database**: MongoDB / MySQL
-- **Optional**: Chart.js for visualizing progress
+- **Frontend**: HTML5, CSS3, Bootstrap, JavaScript
+- **Backend**: PHP 8+
+- **Database**: MySQL
+- **Server**: Apache (via XAMPP/WAMP or live hosting)
 
 ---
 
 ## 📦 Installation & Setup
 
 ### Prerequisites
-- Web browser
-- Local server (XAMPP/WAMP for PHP version or Node.js for JavaScript backend)
+- PHP 8+ installed
+- MySQL database
+- Local server environment like XAMPP/WAMP or live hosting
 
 ### Steps
-1. Clone the repository:
+1. Clone or download the repository:
    ```bash
    git clone https://github.com/yourusername/exercise-tracker.git
